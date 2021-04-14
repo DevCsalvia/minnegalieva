@@ -1,0 +1,17 @@
+.MainPage-Wrapper{
+    width: 100%;
+    height: calc(100vh - 12rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainPage-Wrapper h1{
+    margin-bottom: 40px;
+    font-size: 6rem;
+}
+
+.MainPage-Wrapper a{
+    font-size: 2rem !important;
+}

@@ -1,0 +1,28 @@
+.Navigation__items{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.Navigation__items li{
+    position: relative;
+    align-self: center;
+    margin: 0 40px;
+}
+
+.Navigation__items li:hover{
+    color: yellowgreen;
+}
+
+.Navigation__items li::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: calc(100% + 2px);
+    width: 100%;
+    border-bottom: 2px solid currentColor;
+}
+
+.Navigation__items .active{
+    color: yellowgreen;
+}

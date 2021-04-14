@@ -1,0 +1,13 @@
+.Toolbar  {
+    width: 100vw;
+    height: 12rem;
+    background-color: lightgray;
+    top: 0;
+    align-items: center;
+    border-bottom: .1rem solid black;
+}
+
+.Navigation_Wrapper {
+    display: grid;
+    height: 100%;
+}

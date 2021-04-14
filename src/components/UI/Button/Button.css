@@ -1,0 +1,21 @@
+.Button {
+    
+}
+
+.Button a{
+    font-size: 1.6rem;
+    border-radius: .2rem;
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    background-color: white;
+    color: currentColor;
+}
+
+.Button--Border-Black a{
+    border: .1rem solid black;
+}
+
+.Button--Black a {
+    color: white;
+    background-color: black;
+}
